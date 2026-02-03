@@ -412,11 +412,11 @@
 
   </div>
 
-<section class="container mx-auto flex">
+<section class="container mx-auto lg:flex">
    <div class="hidden md:flex space-x-4 lg:mt-25 lg:mr-10">
       <button class="w-10 h-10 border border-gray-300 flex items-center justify-center hover:bg-orange-400 hover:text-white transition">←</button>
     </div>
-  <div class="flex gap-6 overflow-x-auto pb-8 snap-x no-scrollbar">
+  <div class="lg:flex gap-6 overflow-x-auto pb-8 snap-x no-scrollbar">
     <div class="min-w-[100%] md:min-w-[32%] border border-orange-100 p-8 snap-center">
       <div class="flex items-center gap-4 mb-6">
         <img src="./aliew.img/Ellipse 8 (1).png" class="w-16 h-16 rounded-full object-cover" alt="User">
@@ -539,18 +539,9 @@
   </div>
   </div>
 </section>
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8" />
-  <title>Офис продаж</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-white">
 
 <section class="max-w-7xl mx-auto px-4 py-16">
 
-  <!-- Title -->
   <div class="flex items-center gap-6 mb-10">
     <h2 class="text-3xl font-light">
       <span class="text-orange-500">ОФИС</span> ПРОДАЖ
@@ -560,13 +551,7 @@
 
   <div class="relative bg-gray-50 rounded-lg overflow-hidden min-h-[420px]">
 
-    <iframe
-      class="absolute inset-0 w-full h-full"
-      src="https://yandex.ru/map-widget/v1/?ll=49.189000%2C55.748000&z=15&pt=49.189000,55.748000,pm2rdm"
-      frameborder="0">
-    </iframe>
-
-    <!-- Info card -->
+<img      class="absolute inset-0 w-full h-full" src="./aliew.img/Rectangle 112.png" alt="">
     <div class="relative z-10 bg-white w-full md:w-[380px] p-6 shadow-lg">
       <h3 class="text-xl font-medium mb-2">Центральный офис</h3>
       <p class="text-sm text-gray-500 mb-5">
@@ -575,21 +560,21 @@
 
       <ul class="space-y-4 text-sm">
         <li class="flex gap-3">
-          <span class="text-orange-500">📍</span>
+          <span class="text-orange-500"><img src="./aliew.img/ph_map-pin-light.png" alt=""></span>
           г. Казань, ул. Яркая 31 Б
         </li>
         <li class="flex gap-3">
-          <span class="text-orange-500">🕒</span>
+          <span class="text-orange-500"><img src="./aliew.img/ph_clock-light.png" alt=""></span>
           Пн–Сб: с 9:00 до 18:00
         </li>
         <li class="flex gap-3">
-          <span class="text-orange-500">📞</span>
+          <span class="text-orange-500"><img src="./aliew.img/ph_phone-light.png" alt=""></span>
           +7 (962) 555-25-25
         </li>
       </ul>
 
       <button
-        class="mt-6 w-full bg-orange-500 text-white py-3 rounded hover:bg-orange-600 transition">
+        class="mt-6 w-full bg-orange-500 text-white py-3 rounded  transition">
         Проложить маршрут
       </button>
     </div>
@@ -597,9 +582,66 @@
   </div>
 
 </section>
+    <footer class="bg-[#323232] text-white">
+        <div class="max-w-400 m-auto w-[90%]">
+            <div class="flex justify-between py-10">
+                <div class="md:flex lg:flex-row md:flex-col md:gap-15 hidden lg:gap-40">
+                    <div class="flex flex-col gap-5">
+                        <h2 class="text-[30px] border-b-2 border-[#EFA359] w-fit">О компании</h2>
 
-</body>
-</html>
+                        <div class="lg:flex hidden flex-col gap-2">
+                            <p>Главная</p>
+                            <p>Наша команда</p>
+                            <p>СМИ о нас</p>
+                            <p>Отзывы</p>
+                            <p>Новости</p>
+                            <p>Контакты</p>
+                        </div>
+                    </div>
+
+                     <div class="flex flex-col gap-5">
+                        <h2 class="text-[30px] border-b-2 border-[#EFA359] w-fit">проекты</h2>
+
+                        <div class="lg:flex hidden flex-col gap-2">
+                            <p>Изумрудный Village</p>
+                            <p>Зимняя горка</p>
+                            <p>Константиновка</p>
+                            <p>Усады Village</p>
+                            <p>IQ-CLUB</p>
+                        </div>
+                    </div>
+
+                     <div class="flex flex-col gap-5">
+                        <h2 class="text-[30px] border-b-2 border-[#EFA359] w-fit">ИПОТЕКА</h2>
+
+                        <div class="lg:flex hidden flex-col gap-2">
+                            <p>Ипотечные кредиты</p>
+                            <p>Для семей с детьми</p>
+                            <p>Военная ипотека</p>
+                            <p>Господдержка 2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex md:flex-col items-center gap-12">
+                    <div>
+                        <img src="./aliew.img/windom logo 3.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./aliew.img/иконки.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex md:flex-row flex-col-reverse py-5 justify-between">
+                <p>Политика конфиденциальности</p>
+                <div>
+                    <img src="./aliew.img/mail (1).png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
 
 </body>
 </html>
